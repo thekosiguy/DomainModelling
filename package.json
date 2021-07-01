@@ -1,0 +1,9 @@
+{
+  "name": "domain-modelling",
+  "version": "0.0.0",
+  "description": "DomainModelling",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}

@@ -1,0 +1,2 @@
+C:\Users\kosi5\DigitalFutures\DomainModelling\obj\Debug\DomainModelling.njsprojAssemblyReference.cache
+C:\Users\kosi5\DigitalFutures\DomainModelling\bin\Microsoft.NodejsTools.WebRole.dll

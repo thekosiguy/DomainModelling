@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "DomainModelling", "DomainModelling.njsproj", "{3A571F9C-AAB2-48D1-987A-221C5E1CD45B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A571F9C-AAB2-48D1-987A-221C5E1CD45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A571F9C-AAB2-48D1-987A-221C5E1CD45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A571F9C-AAB2-48D1-987A-221C5E1CD45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A571F9C-AAB2-48D1-987A-221C5E1CD45B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {460D23EC-5454-44E3-89F8-9D89A3657C4A}
+	EndGlobalSection
+EndGlobal
