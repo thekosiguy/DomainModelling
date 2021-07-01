@@ -1,7 +1,8 @@
 const assertEquals = require('../../test-framework');
 const basket = require('../src/basket');
 
-console.log('Test: Add Item' + '\n');
+/*console.log('Test: Add Item' + '\n');
+
 
 //Set up
 let items = new basket(['pizza', 'french fries', 'oranges']);
@@ -66,16 +67,17 @@ console.log('\nTest: Add an item with id that already exists' + '\n');
 
 console.log('\nTest: Removing an item that the basket does not contain' + '\n');
 
-//-------------------------------------------------
+//-------------------------------------------------*/
 
 console.log('\nTest: Adding item with id that matches the id of an item that exists in the basket' + '\n');
 
 //Set up
-let items4 = new basket(['Burgers 1', 'Potatoes 2', 'Tomatoes 3', 'Chocolate 4']);
-let expectedOutput5 = 'Cucumbers 5';
+let items5 = new basket([['Burgers', 1], ['Potatoes', 2], ['Tomatoes', 3], ['Chocolate', 4]]);
+items5._items[1][1];
+let expectedOutput5 = `The item you're trying to add has an id of 2, the basket contains Potatoes which has this id!`;
 
 //Execute
-let actualOutput5 = add.Item('Cucumbers');
+let actualOutput5 = items5.addItem([['Potatoes', 2]]);
 console.log(actualOutput5);
 
 //Verify
