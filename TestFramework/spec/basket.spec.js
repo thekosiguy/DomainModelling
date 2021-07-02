@@ -1,7 +1,7 @@
 const assertEquals = require('../../test-framework');
 const basket = require('../src/basket');
 
-/*console.log('Test: Add Item' + '\n');
+console.log('Test: Add Item' + '\n');
 
 
 //Set up
@@ -62,10 +62,6 @@ console.log(actualOutput4);
 //Verify
 let result4 = assertEquals(actualOutput4, expectedOutput4);
 console.log(`Result: ${result4}`);
-
-console.log('\nTest: Add an item with id that already exists' + '\n');
-
-console.log('\nTest: Removing an item that the basket does not contain' + '\n');
 
 //-------------------------------------------------*/
 

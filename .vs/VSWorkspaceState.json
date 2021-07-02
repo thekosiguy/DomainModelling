@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\TestFramework",
     "\\TestFramework\\spec",
     "\\TestFramework\\src"
   ],
-  "SelectedNode": "\\test-framework.js",
+  "SelectedNode": "\\TestFramework\\src\\basket.js",
   "PreviewInSolutionExplorer": false
 }

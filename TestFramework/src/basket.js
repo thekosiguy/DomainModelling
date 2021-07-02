@@ -1,8 +1,6 @@
 class basket {
     constructor(items) {
         this._items = items;
-        //this._currItem = items[items.length - 1];
-        //this._nextitemID = this._currItem.parseInt(this._currItem[this._currItem.length - 1]) + 1;
         this._capacity = 12;
     }
 
