@@ -29,6 +29,10 @@ class basket {
         }
     }
 
+    displayPrice() {
+
+    }
+
     largerCapacity() {
         this._capacity = 20;
         return 'Baskets now have a capacity of 20 items';

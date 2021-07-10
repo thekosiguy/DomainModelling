@@ -63,13 +63,12 @@ console.log(actualOutput4);
 let result4 = assertEquals(actualOutput4, expectedOutput4);
 console.log(`Result: ${result4}`);
 
-//-------------------------------------------------*/
+//-------------------------------------------------
 
 console.log('\nTest: Adding item with id that matches the id of an item that exists in the basket' + '\n');
 
 //Set up
 let items5 = new basket([['Burgers', 1], ['Potatoes', 2], ['Tomatoes', 3], ['Chocolate', 4]]);
-items5._items[1][1];
 let expectedOutput5 = `The item you're trying to add has an id of 2, the basket contains Potatoes which has this id!`;
 
 //Execute
@@ -80,6 +79,21 @@ console.log(actualOutput5);
 let result5 = assertEquals(actualOutput5, expectedOutput5);
 console.log(`Result: ${result5}`);
 
+//-------------------------------------------------
+
+console.log('\nTest: Price of each item before addition to the basket' + '\n');
+
+//Set up
+let items6 = new basket([['Burgers', 1, 2.49], ['Grapes', 2, 3.20], ['Tomatoes', 3, 0.89], ['Chocolate', 4, 1.20]]);
+let expectedOutput6 ='Price of Potatoes: £3.49';
+
+//Execute
+let actualOutput6 = items6.addItem([['Potatoes', 5, 3.49]]);
+//console.log(actualOutput6);
+
+//Verify
+let result6 = assertEquals(actualOutput6, expectedOutput6);
+console.log(`Result: ${result6}`);
 
 
 
